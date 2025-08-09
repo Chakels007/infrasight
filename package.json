@@ -1,0 +1,32 @@
+{
+  "name": "infrasight",
+  "version": "1.0.0",
+  "description": "Multimodal Inspection & Repair Planner - Production-grade inspection assistant for infrastructure teams",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "infrastructure",
+    "inspection",
+    "ai",
+    "computer-vision",
+    "multimodal",
+    "maintenance",
+    "repair-planning",
+    "defect-detection"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/infrasight.git"
+  },
+  "homepage": "https://infrasight.vercel.app",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

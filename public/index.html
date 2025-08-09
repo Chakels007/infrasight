@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfraSight - Multimodal Inspection Platform</title>
+    <meta name="description" content="Production-grade multimodal inspection assistant that turns photos, videos and spec sheets into localized defect detections and repair plans">
+    <meta name="keywords" content="infrastructure inspection, AI defect detection, maintenance planning, computer vision">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>">
+    
+    <!-- External Dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 InfraSight</h1>
+            <p>Multimodal Inspection & Repair Planner - Transform field photos into actionable repair plans</p>
+        </div>
+
+        <div class="main-content">
+            <div class="upload-section">
+                <div class="section-title">
+                    📤 Upload Inspection Media
+                </div>
+                
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📁</div>
+                    <div class="upload-text">Drag & drop or click to upload</div>
+                    <div class="upload-hint">Photos, videos, PDFs, spec sheets</div>
+                </div>
+                
+                <input type="file" id="fileInput" class="file-input" multiple accept="image/*,video/*,.pdf">
+                
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                
+                <div class="uploaded-files" id="uploadedFiles"></div>
+                
+                <button class="analyze-btn" id="analyzeBtn" disabled>
+                    🔬 Start Analysis
+                </button>
+            </div>
+
+            <div class="analysis-section">
+                <div class="section-title">
+                    🎯 Analysis Results
+                </div>
+                
+                <div id="analysisResults">
+                    <div style="text-align: center; color: #a0aec0; padding: 40px;">
+                        <div style="font-size: 3rem; margin-bottom: 15px;">🔍</div>
+                        <div>Upload files to begin analysis</div>
+                    </div>
+                </div>
+
+                <div class="qa-interface" id="qaInterface" style="display: none;">
+                    <div class="section-title" style="margin-top: 30px;">
+                        💬 Ask Questions
+                    </div>
+                    <input type="text" class="question-input" id="questionInput" 
+                           placeholder="Ask about defects, specifications, or maintenance needs...">
+                    <button class="ask-btn" id="askBtn">Ask Question</button>
+                    <div id="qaResults"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-section">
+            <div class="feature-card">
+                <div class="feature-icon">🤖</div>
+                <div class="feature-title">AI-Powered Detection</div>
+                <div class="feature-desc">
+                    Advanced computer vision detects cracks, corrosion, missing components, and structural issues with high accuracy.
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <div class="feature-title">Smart Prioritization</div>
+                <div class="feature-desc">
+                    Automatically ranks defects by severity and urgency, helping teams focus on critical repairs first.
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📋</div>
+                <div class="feature-title">Instant Reports</div>
+                <div class="feature-desc">
+                    Generate detailed inspection reports and work orders with photos, locations, and repair recommendations.
+                </div>
+            </div>
+        </div>
+
+        <div class="report-preview" id="reportPreview" style="display: none;">
+            <div class="report-header">
+                <div class="report-title">📋 Inspection Report</div>
+                <div class="report-date" id="reportDate"></div>
+            </div>
+            <div id="reportContent"></div>
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="exportReport()">📄 Export PDF</button>
+                <button class="btn btn-primary" onclick="createTicket()">🎫 Create Ticket</button>
+                <button class="btn btn-secondary" onclick="shareReport()">📤 Share</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Application Script -->
+    <script src="js/app.js"></script>
+</body>
+</html>
