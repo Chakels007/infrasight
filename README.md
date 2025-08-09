@@ -190,6 +190,55 @@ infrasight/
 - **Compliance Ready** - Standardized reporting and audit trails
 - **Scalable Solution** - Architecture supports growth from pilot to enterprise
 
+For InfraSight to provide the best analysis results, here are the ideal file types and examples you should upload:
+
+### 📸 Images (Most Important)
+
+- **Infrastructure photos** - Bridges, buildings, roads, pipes, electrical panels
+- **Close-up defect shots:** Cracks, corrosion, wear patterns, damage
+- **Equipment photos:** HVAC units, machinery, electrical systems
+- Before/after comparison shots
+- Wide-angle context shots + detailed problem areas
+
+### 📹 Videos
+
+- Inspection walkthroughs of facilities
+- Equipment operation footage showing issues
+- Time-lapse of deterioration over time
+- Drone footage of hard-to-reach areas
+
+### 📄 Documents
+
+- Spec sheets and technical drawings
+- Previous inspection reports (PDF)
+- Maintenance manuals
+- Asset tags and equipment labels
+
+## 🎯 Best Results Come From:
+#### High-Quality Infrastructure Photos Like:
+
+- Concrete structures with visible cracks, spalling, or discoloration
+- Metal components showing rust, corrosion, or deformation
+- Electrical panels with visible components, labels, and any damage
+- Mechanical equipment with wear indicators
+- Pipes and joints with potential leaks or deterioration
+
+## What Gets Detected:
+
+✅ Structural cracks and their dimensions
+✅ Corrosion patterns and severity levels
+✅ Missing or damaged components
+✅ Text/labels for asset identification
+✅ Wear patterns and degradation signs
+
+## Tips for Best Analysis:
+
+- **Good lighting** - Avoid shadows over defects
+- **Clear focus** - Sharp images of problem areas
+- **Multiple angles** - Different perspectives of the same issue
+- **Include context** - Show surrounding area for reference
+- **Asset labels visible** - Include ID tags, specs, or nameplates
+
 ## 📈 Future Enhancements
 
 ### Phase 2 Features
