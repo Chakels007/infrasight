@@ -206,9 +206,9 @@ infrasight/
 
 ## 📞 Contact
 
-- **GitHub:** [your-username](https://github.com/your-username)
-- **LinkedIn:** [your-profile](https://linkedin.com/in/your-profile)
-- **Email:** your.email@domain.com
+- **GitHub:** [your-username](https://github.com/Chakels007)
+- **LinkedIn:** [your-profile](https://linkedin.com/in/gowtham-sriram)
+- **Email:** hello@gowthamsriram.com
 
 ## 📄 License
 
