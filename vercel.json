@@ -20,6 +20,11 @@
   "functions": {
     "public/index.html": {
       "maxDuration": 30
+    },
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "api/**/*.js": {
+      "memory": 512,
+      "maxDuration": 10
     }
   },
   "headers": [
