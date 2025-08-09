@@ -6,7 +6,7 @@ A production-grade, multimodal inspection assistant that turns photos, videos an
 
 ## 🚀 Live Demo
 
-**Deployed at:** [https://your-app.vercel.app](https://your-app.vercel.app)
+**Deployed at:** [https://infrasight-bice.vercel.app/](https://infrasight-bice.vercel.app/)
 
 ## 🎯 What It Does
 
@@ -255,9 +255,9 @@ For InfraSight to provide the best analysis results, here are the ideal file typ
 
 ## 📞 Contact
 
-- **GitHub:** [your-username](https://github.com/your-username)
-- **LinkedIn:** [your-profile](https://linkedin.com/in/your-profile)
-- **Email:** your.email@domain.com
+- **GitHub:** [Gowtham Sriram | Github](https://github.com/Chakels007)
+- **LinkedIn:** [Gowtham Sriram | LinkedIn](https://linkedin.com/in/gowtham-sriram)
+- **Email:** hello@gowthamsriram.com
 
 ## 📄 License
 
