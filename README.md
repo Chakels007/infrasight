@@ -225,11 +225,11 @@ For InfraSight to provide the best analysis results, here are the ideal file typ
 
 ## What Gets Detected:
 
-✅ Structural cracks and their dimensions
-✅ Corrosion patterns and severity levels
-✅ Missing or damaged components
-✅ Text/labels for asset identification
-✅ Wear patterns and degradation signs
+-  Structural cracks and their dimensions
+-  Corrosion patterns and severity levels
+-  Missing or damaged components
+-  Text/labels for asset identification
+-  Wear patterns and degradation signs
 
 ## Tips for Best Analysis:
 
